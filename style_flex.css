@@ -1,0 +1,88 @@
+html, body {
+    font-family: verdana, arial, sans-serif;
+    font: bold;
+}
+header, footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(190, 188, 188);  
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    }
+main{
+    background-color: beige;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    flex: 1 1 auto;
+    column-count: 2;
+}
+.maintitle{
+    background-color: beige;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
+}
+.maincontent{
+    background-color: rgb(235, 190, 175);
+    flex-direction: column;
+    column-count: 3;
+    flex-basis: 66%;
+    align-items: center;
+}
+aside{
+    /*border: 1px solid rgb(89, 0, 255);*/
+    display: flex;
+    background-color: lightgreen;
+    justify-content: end;
+    flex: 1 1 auto;
+    min-height: 100%;
+    padding-top: 20px;
+    box-sizing:border-box;
+}
+.asidecontente {
+    flex-basis: 33%;
+    width: 100%;
+    min-height: 100%;
+}
+div{
+    /*border: 1px solid red;*/
+    display: flex;
+    background-color: rgb(219, 214, 210);
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    flex-grow: 1;
+    }
+.div1{
+    flex-direction: row;
+    min-width: 100%;
+    height: 30%;
+    margin: 10px;
+}
+.div3{
+    width: 100%;
+    height: 30%;
+    margin: 10px;
+}
+footer{
+    justify-content: space-around;
+}
+section{
+    /*border: 1px solid red;*/
+    display: inline-flex;
+    background-color: white;
+    width: 24%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
